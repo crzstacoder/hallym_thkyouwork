@@ -2,7 +2,11 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD
       <excludeFolder url="file://$MODULE_DIR$/thankyouwork/venvs" />
+=======
+      <excludeFolder url="file://$MODULE_DIR$/venvs" />
+>>>>>>> 10dd4bac8f500cc8326e48b427c59007c6615d7e
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11 (hallym_thkyouwork)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
