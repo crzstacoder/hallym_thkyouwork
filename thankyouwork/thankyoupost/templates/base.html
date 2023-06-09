@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You Post List</title>
+    <!-- CSS 및 기타 필요한 스타일시트 및 스크립트 태그 등을 추가하세요 -->
+</head>
+<body>
+    <h1>Thank You Post List</h1>
+    <!-- 페이지의 내용을 작성하세요 -->
+    {% for post in posts %}
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+        <p>Author: {{ post.author }}</p>
+        <p>Created At: {{ post.created_at }}</p>
+        <hr>
+    {% endfor %}
+</body>
+</html>

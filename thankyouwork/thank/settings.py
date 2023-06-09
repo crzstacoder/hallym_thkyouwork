@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'Main',
     'thankyoupost',
     'signup',
+    'write',
+
 
 ]
 
@@ -59,7 +61,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'thankyou' / 'templates',
-                 BASE_DIR / 'signup' / 'templates'],
+                 BASE_DIR / 'signup' / 'templates',
+                 BASE_DIR / 'thankyoupost' / 'templates',
+                 BASE_DIR / 'write' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

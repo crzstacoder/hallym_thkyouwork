@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>게시물 작성</h1>
+  <form method="post" action="{% url 'write:write_post' %}">
+    {% csrf_token %}
+    <label for="title">제목:</label>
+    <input type="text" id="title" name="title" required><br>
+    <label for="content">내용:</label>
+    <textarea id="content" name="content" rows="4" required></textarea><br>
+    <input type="submit" value="작성">
+  </form>
+{% endblock %}

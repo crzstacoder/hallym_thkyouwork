@@ -1,5 +1,5 @@
 from django.db import models
-from ..signup.models import UserProfile
+# from signup.models import UserProfile
 
 
 class UserProfile(models.Model):
